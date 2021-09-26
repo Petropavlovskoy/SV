@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1612465923_15-p-seraya-myataya-bumaga-fon-18.jpg");
+  padding: 100px 0;
+  font-weight: bold;
+}
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.container {
+  width: 800px;
+  min-height: 500px;
+  border: 10px solid white;
+  margin: 0 auto;
+  background: #fff;
+}
+.header {
+  display: flex;
+  height: 150px;
+}
+.title-block {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  width: 80%;
+  height: 100%;
+  background: url("https://phonoteka.org/uploads/posts/2021-06/thumbs/1624495948_14-phonoteka_org-p-oboi-na-rabochii-stol-programmirovanie-kra-15.jpg")
+    no-repeat center center / cover;
+  color: #fff;
+  margin-right: 10px;
+}
+.title-block::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.title {
+  position: relative;
+  z-index: 1;
+}
+.userpic {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  background: url("https://i.pinimg.com/originals/82/fb/f6/82fbf6ad3743c43429d7aced35a7482d.jpg")
+    no-repeat center center / cover;
+}
+.nav ul  {
+  display: flex;
+  background: rgb(230, 230, 230);
+  margin: 10px 0;
+}
+
+.nav li a {
+  padding: 20px;
+  display: flex;
+  text-decoration: none;
+  color: #404040;
+  font-weight: bold;
+  border-radius: 1px solid #404040;
+  transition: background 0.3s ease;
+}
+.nav li a:hover {
+  background: rgb(189, 189, 189);
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.content {
+  width: 70%;
+  padding: 20px;
+}
+.content P{
+    line-height: 20px;
+}
+
+.sidebar {
+  padding: 20px;
+  width: 30%;
+}
+
+.skills li {
+  padding: 10px 0;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.skills li:hover {
+  transform: translateX(10px);
+}
